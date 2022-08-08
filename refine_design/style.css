@@ -6,6 +6,8 @@
     --text_yellow: #FCFC62;
     --nav_background: hsla(340, 23%, 3%, 0.2);
     --text-grey:rgba(0, 0, 0, 0.7);
+    --grey_background: hsla(0, 0%, 95%, 1);
+
 
     --bigest-font-size: 2.5rem;
     --h1-font-size:1.5rem;
@@ -182,4 +184,12 @@ html, body{
 
 .review_text{
     color: var(--text_white);
+}
+
+.partner{
+    margin-top: var(--bigest-font-size);
+}
+
+.partner_block{
+    background: var(--grey_background);
 }
