@@ -196,3 +196,20 @@ html, body{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.team_card_container{
+    display: flex;
+
+}
+
+.team_card{
+    font-weight: 700;
+    height: 468px;
+    width: 388px;
+    padding: var(--padding_medium);
+}
+
+.team_card_sub{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
