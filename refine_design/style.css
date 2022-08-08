@@ -187,9 +187,12 @@ html, body{
 }
 
 .partner{
-    margin-top: var(--bigest-font-size);
+    margin-top: 7rem;
 }
 
 .partner_block{
     background: var(--grey_background);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
