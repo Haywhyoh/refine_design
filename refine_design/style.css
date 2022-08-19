@@ -259,5 +259,16 @@ html, body{
     font-size: 20px;
     line-height: 28px;
     color: rgba(30, 26, 29, 0.5);
+}
 
+.awards{
+    margin-top: 7rem;
+}
+
+.award_heading{
+    border-bottom: 5px solid var(--text_red)
+}
+.award_img{
+    width:441px;
+    height: 248px;
 }
