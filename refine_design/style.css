@@ -210,6 +210,15 @@ section{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.project_nav{
+    border-bottom: 4px solid var(--text-dark-grey);
+}
+.project_menu{
+    color: var(--text-dark-grey);
+    background-color: var(--grey_background);
+}
+
 .team_card_container{
     display: flex;
 
