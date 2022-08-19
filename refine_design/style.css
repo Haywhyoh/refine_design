@@ -5,7 +5,10 @@
     --text_red: #9B2226;
     --text_yellow: #FCFC62;
     --nav_background: hsla(340, 23%, 3%, 0.2);
-    --text-grey:rgba(0, 0, 0, 0.7);
+    --text-grey:rgba(255, 255, 255, 0.5);
+    --text-dark-grey: rgba(30, 26, 29, 0.7);
+    --cool_white:rgb(216, 208, 208);
+
     --grey_background: hsla(0, 0%, 95%, 1);
 
 
@@ -28,6 +31,15 @@
 html, body{
     font-family: Roboto;
     
+}
+
+li{
+    list-style-type: none;
+}
+
+section{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .navbar{
@@ -66,6 +78,7 @@ html, body{
     padding: var(--padding_small);
     box-shadow: rgb(0, 0, 0) 5px 5px, rgb(0, 0, 0) 10px 10px, rgb(0, 0, 0) 15px 15px;
     font-weight: 700;
+    color: var(--text_red);
 }
 
 .home_content{
@@ -88,7 +101,7 @@ html, body{
 .offer_text{
     width: 40rem;
     font-size: var(--text_size);
-    color: var(--text-grey);
+    color: var(--text-dark-grey);
 }
 
 .img_round{
@@ -233,11 +246,12 @@ html, body{
 
 
 .about_text{
-    color: var(--text-grey);
+    color: var(--text-dark-grey);
 }
 
 .contact{
     background-color: var(--grey_background);
+    margin-bottom: 0;
 }
 
 .contact_input{
@@ -272,3 +286,17 @@ html, body{
     width:441px;
     height: 248px;
 }
+
+footer{
+    color: var(--cool_white);
+    background: #212121;
+}
+
+.subscribe{
+    color: var(--text-grey);
+}
+
+.subscribe_btn{
+    border-radius: 1rem;
+}
+    
