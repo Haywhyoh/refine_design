@@ -133,7 +133,7 @@ section{
 }
 
 .pic_flex{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -208,14 +208,11 @@ section{
 }
 
 .partner{
-    margin-top: 7rem;
+    margin-top: 40rem;
 }
 
 .partner_block{
     background: var(--grey_background);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .project_nav{
@@ -226,10 +223,13 @@ section{
     background-color: var(--grey_background);
 }
 
-.team_card_container{
+/* .team_container{
+    margin-top: 10rem !important;
+} */
+/* .team_card_container{
     display: flex;
 
-}
+} */
 
 .team_card{
     font-weight: 700;
@@ -256,8 +256,9 @@ section{
     justify-content: space-between;
 }
 .about_img{
+    display: none;
     height: 536px;
-    width: 644px
+    width: 100%
 }
 
 
@@ -291,18 +292,26 @@ section{
     color: rgba(30, 26, 29, 0.5);
 }
 
+
 .awards{
     margin-top: 7rem !important;
 }
 
+.award_img{
+    width:100%;
+    height: 248px;
+}
 .award_heading{
     border-bottom: 5px solid var(--text_red)
 }
-.award_img{
-    width:441px;
-    height: 248px;
+
+.past_img{
+    width: 100%;
 }
 
+.contact_img{
+    display: none;
+}
 footer{
     color: var(--cool_white);
     background: #212121;
@@ -317,8 +326,29 @@ footer{
 }
     
 
-@media only screen and (max-width: 400px) {
-    div{
-    flex-direction: column;
+@media only screen and (min-width: 547px) {
+
+    .pic_flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-} 
+    
+    .about_img{
+        display: none;
+        height: 536px;
+        width: 100%
+    }
+
+    .award_img{
+        width:441px;
+        height: 248px;
+    }
+
+    .contact_img{
+        display:block;
+    }
+
+    .contact_input_container{
+        background-image: none;
+    }}
