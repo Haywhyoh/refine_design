@@ -56,16 +56,19 @@ section{
 }
 
 .navbar-brand{
-    font-size: var(--big_font);
+    font-size: var(--text_size);
     font-weight: 900;
 }
 .navbar_list{
     color: var(--text_white);
 }
-
+.menu_icon{
+    font-size: var(--big_font) !important;
+    color:var(--text_white);
+}
 .logo{
     color: var(--text_red);
-    font-size: var(--big_font);
+    font-size: var(--text_size);
     font-weight: 900;
 }
 .home_bg{
@@ -219,6 +222,7 @@ section{
     border-bottom: 4px solid var(--text-dark-grey);
 }
 .project_menu{
+    display: none !important;
     color: var(--text-dark-grey);
     background-color: var(--grey_background);
 }
@@ -328,12 +332,17 @@ footer{
 
 @media only screen and (min-width: 547px) {
 
+    .navbar-brand{
+        font-size: var(--big_font);
+        font-weight: 900;
+    }
+
     .pic_flex{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    
+
     .about_img{
         display: none;
         height: 536px;
@@ -351,4 +360,12 @@ footer{
 
     .contact_input_container{
         background-image: none;
-    }}
+    }
+
+    .project_menu{
+
+        color: var(--text-dark-grey);
+        background-color: var(--grey_background);
+    }
+
+}
