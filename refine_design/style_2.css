@@ -340,13 +340,17 @@ footer{
     .pic_flex{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+       
     }
 
     .about_img{
         display: none;
         height: 536px;
         width: 100%
+    }
+
+    .partner{
+        margin-top: 6rem;
     }
 
     .award_img{
@@ -363,7 +367,7 @@ footer{
     }
 
     .project_menu{
-
+        display: flex !important;
         color: var(--text-dark-grey);
         background-color: var(--grey_background);
     }
