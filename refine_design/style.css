@@ -316,3 +316,9 @@ footer{
     border-radius: 1rem;
 }
     
+
+@media only screen and (max-width: 400px) {
+    div{
+    flex-direction: column;
+    }
+} 
