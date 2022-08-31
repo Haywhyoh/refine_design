@@ -330,7 +330,7 @@ footer{
 }
     
 
-@media only screen and (min-width: 547px) {
+@media only screen and (min-width: 576px) {
 
     .navbar-brand{
         font-size: var(--big_font);
@@ -372,4 +372,12 @@ footer{
         background-color: var(--grey_background);
     }
 
+}
+
+@media screen and (min-width:768)
+{
+    .card_container
+    {
+        justify-self: center !important;
+    }
 }
