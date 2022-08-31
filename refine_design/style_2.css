@@ -332,7 +332,7 @@ footer{
     display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 576px) {
 
     .navbar-brand{
         font-size: var(--big_font);
