@@ -62,21 +62,21 @@
             Ut ipsum id malesuada nullam orci velit ut suscipit nam. Lorem ipsum dolor sit amet,
             consectetur adipiscing elit. Ut ipsum id malesuada nullam orci velit ut suscipit nam.
         </p>
-        <div class="container container-md">
-            <div class="d-sm-flex d-md-flex flex-md-column col col-md card_container">
-                <div class="div_card text-center my-4 p-4 ">
+        <div class="container mx-md-5 ">
+            <div class="d-sm-flex flex-lg-row px-md-5 flex-md-column card_container">
+                <div class="div_card mx-md-5 text-center my-4 p-4 ">
                     <img class="rounded-circle border border-4 img_round" src="./assets/palette.jpg">
                     <p class="h4 my-3">Creative Designs</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus quis scelerisque bibendum ac, in enim.
                     </p>
                 </div>
-                <div class="div_card text-center my-4 p-4 col">
+                <div class="div_card text-center mx-md-5 my-4 p-4">
                     <img class="rounded-circle border border-4 img_round" src="./assets/reliability.jpg">
                     <p class="h4 my-3">Reliability</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus quis scelerisque bibendum ac, in enim.
                     </p>
                 </div>
-                <div class="div_card text-center my-4 p-4 col">
+                <div class="div_card text-center mx-md-5 my-4 p-4">
                     <img class="rounded-circle border border-4 img_round" src="./assets/listen.jpg">
                     <p class="h4 my-3">Good Communication</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus quis scelerisque bibendum ac, in enim.
@@ -204,7 +204,7 @@
     <section class="container partner">
         <p class="display-4 my-3 offer_heading text-center">OUR <span class="header_color">PARTNERS </span></p>
        <div class="container">
-        <div class=" text-center py-4 d-sm-flex justify-content-sm-between partner_block">
+        <div class=" text-center py-4 d-sm-flex flex-md-column flex-lg-row justify-content-sm-between partner_block">
             <div class="">
                 <img src="./assets/1.svg" alt="" class="">
             </div>
@@ -229,7 +229,7 @@
         
             <p class="display-4 my-3 offer_heading text-center">OUR <span class="header_color">TEAM </span></p>
            <div>
-            <div class="d-sm-flex">
+            <div class="d-sm-flex flex-md-column flex-lg-row">
                 <div class="container team_card">
                     <img src="./assets/team_1.jpg" alt="" class=" ">
                     <p class="h4">Sam WainWright</p>
@@ -295,14 +295,14 @@
     </section>
             <!--=============================================AWARDS=========================================================-->
     <section class="container awards my-5">
-        <div class="d-sm-flex">
+        <div class="d-sm-flex flex-lg-row flex-md-column">
             <div class="container">
                 <p class="display-4 my-3 text-center offer_heading award_heading">AWARDS</p>
             </div>
             <div class="container">
-                <div class="d-sm-flex">
-                    <div class="container">
-                    <img src="./assets/background.jpg" alt="" class="mx-sm-4 award_img">
+                <div class="d-sm-flex flex-lg-row flex-md-column">
+                    <div class="container mx-md-5">
+                    <img src="./assets/background.jpg" alt="" class="mx-sm-4 mx-md-5 award_img">
                     </div>
                     <div class="text-center">
                         <img src="./assets/havanlogo.jpg" alt="">
@@ -338,38 +338,43 @@
         
     </section>
         <!--================================================FOOTER======================================================-->
-    <footer class="container d-sm-flex justify-content-between p-5">
-        <div>
+    <footer class="container d-sm-flex flex-lg-row flex-md-column justify-content-between p-5">
+    
+        <div class="mx-md-auto">
             <p class="h2 my-3 offer_heading">RE-DEFINE <span class="header_color"> & DESIGN </span></p>
             <p class="h6 subscribe">Subscribe to get free access to our guides</p>
             <ul class="h5 my-4">
-                <li >10 THINGS TO ASK YOUR CONTRACTOR</li>
-                <li>ESTIMATE EXAMPLES</li>   
+                <li>10 THINGS TO ASK YOUR CONTRACTOR</li>
+                <li>ESTIMATE EXAMPLES</li>
             </ul>
-           
+    
             <input type="email" class="form-control contact_input  w-100" placeholder="Email">
             <div class="text-center">
-                <button class="btn home_btn my-4 text-center px-5 py-2 text-center btn-lg subscribe_btn"> <p class="h4">Subscribe</p> </button>
+                <button class="btn home_btn my-4 text-center px-5 py-2 text-center btn-lg subscribe_btn">
+                    <p class="h4">Subscribe</p>
+                </button>
             </div>
         </div>
-        <div class="text-center my-5 my-sm-3">
-            <p class="h2 ">Company</p>
-            <ul class=" text-center pe-3 h5">
-                <li class="py-2">Home</li>
-                <li class="py-2">Why Us</li>
-                <li class="py-2">About Us</li>
-                <li class="py-2"> Contact</li>
-
-            </ul>
-        </div>
-        <div class=" h5 my-sm-2 text-center">
-            <p class="h2">Contact</p>
-            <p>Phone: (778) 895-4001</p>
-            <p>Email: sam@refineanddesign.com</p>
-            <div class="socials">
-                <i class="ri-linkedin-box-line social_icon"></i>
-                <i class="ri-facebook-box-fill social_icon"></i>
-                <i class="ri-mail-line social_icon"></i>
+        <div class="d-md-flex container-md justify-content-md-evenly mx-auto">
+            <div class="text-center  my-5 my-sm-3">
+                <p class="h2 ">Company</p>
+                <ul class=" text-center pe-3 h5">
+                    <li class="py-2">Home</li>
+                    <li class="py-2">Why Us</li>
+                    <li class="py-2">About Us</li>
+                    <li class="py-2"> Contact</li>
+    
+                </ul>
+            </div>
+            <div class=" h5 my-sm-2 text-center">
+                <p class="h2">Contact</p>
+                <p>Phone: (778) 895-4001</p>
+                <p>Email: sam@refineanddesign.com</p>
+                <div class="socials">
+                    <i class="ri-linkedin-box-line social_icon"></i>
+                    <i class="ri-facebook-box-fill social_icon"></i>
+                    <i class="ri-mail-line social_icon"></i>
+                </div>
             </div>
         </div>
     </footer>
