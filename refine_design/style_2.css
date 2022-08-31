@@ -119,8 +119,7 @@ section{
 }
 
 .card_container{
-    row-gap: 2rem ;
-    column-gap: 5rem;
+
     margin-top: var(--margin_big);
     margin-bottom: var(--margin_big);
 }
