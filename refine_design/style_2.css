@@ -352,7 +352,7 @@ footer{
     }
 
     .partner{
-        margin-top: 10rem;
+        margin-top: 35rem;
     }
 
     .award_img{
@@ -378,6 +378,13 @@ footer{
         display: block;
     }
 
+}
+
+@media only screen and (min-width: 768px) 
+{
+    .partner{
+        margin-top: 10rem;
+    }
 }
 
 
