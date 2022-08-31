@@ -328,8 +328,11 @@ footer{
     border-radius: 1rem;
 }
     
+.disappear{
+    display: none;
+}
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 768px) {
 
     .navbar-brand{
         font-size: var(--big_font);
@@ -371,9 +374,13 @@ footer{
         background-color: var(--grey_background);
     }
 
+    .disappear{
+        display: block;
+    }
+
 }
 
-@media only screen and (min-width:768px)
+/* @media only screen and (min-width:768px)
 {
 
     .partner{
@@ -389,7 +396,7 @@ footer{
         height: 248px;
     }
   
-}
+} */
 
 @media only screen and (min-width:997px)
 {
